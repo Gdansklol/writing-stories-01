@@ -92,7 +92,11 @@ export const Danger = () => <Button variant='danger'>Regnskur 1-10 mm</Button>
 
 ```
 
+# 4.1- Story Hierarchy
 
+
+
+---------------------------------------
 
 ## Learn More
 
@@ -107,4 +111,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 *****
 
 * Markdown : <http://markdowm.com/>
+
+---------------------------------------
+
+
 
