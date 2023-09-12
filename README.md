@@ -9,10 +9,10 @@ npx create-react-app .
 npx sb init
 
 ```
-storybook 7.4 version 
+storybook version 7.4 
 
 
-### `npm runn storybook`
+### `npm run storybook`
 
 Runs the stories UI in the development mode.\
 Open [http://localhost:6006](http://localhost:6006) to view it in your browser.
@@ -22,9 +22,9 @@ The page will reload when you make changes.\
 
 ### `button component`
 
-**create a button component `in the src/source folder`, create another foflder calaled components**
+**create a `button component in the src/source folder`, create another foflder called components**
 
->this will be the place for all our components.
+>\this will be the place for all our components.\
 >in the components folder, I am going to create another
  folder called Button.
 >within this folder we create the three files.
@@ -95,6 +95,8 @@ export const Danger = () => <Button variant='danger'>Regnskur 1-10 mm</Button>
 
 
 ## Learn More
+
+You can learn more in the [Storybook docs](https://storybook.js.org/docs/react/get-started/why-storybook)
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
