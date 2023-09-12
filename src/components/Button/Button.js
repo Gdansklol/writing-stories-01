@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Button.css';
+
 
 function Button (props) {
-   const {} = props
+   const {variant='primary', children, ...rest} = props
     return (
-       <button>
-
+       <button className={`button ${variant}`}{...rest}>
+        {children}
        </button>
     )
 }

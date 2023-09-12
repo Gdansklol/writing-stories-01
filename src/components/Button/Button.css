@@ -1,0 +1,15 @@
+.button {
+    color: white;
+    padding : 1rem 1.2rem;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    cursor:pointer
+}
+
+.primary {background-color: #008CBA;} /* Blue */
+.secondary {background-color: #f7f3f3; color: blue;}
+.success {background-color: #4CAF50; color: rgb(234, 234, 240);}
+.danger {background-color: #f44336;}

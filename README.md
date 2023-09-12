@@ -29,7 +29,68 @@ The page will reload when you make changes.\
  folder called Button.
 >within this folder we create the three files.
 Button.js , Button.css and Button.stories.js
->
+
+### `code`
+```bash
+Button.js
+
+import React from 'react';
+import './Button.css';
+
+
+function Button (props) {
+   const {variant='primary', children, ...rest} = props
+    return (
+       <button className={`button ${variant}`}{...rest}>
+        {children}
+       </button>
+    )
+}
+
+export default Button;
+
+```
+
+```bash
+Button.css
+
+.button {
+    color: white;
+    padding : 1rem 1.2rem;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    cursor:pointer
+}
+
+.primary {background-color: #008CBA;} /* Blue */
+.secondary {background-color: #f7f3f3; color: blue;}
+.success {background-color: #4CAF50; color: rgb(234, 234, 240);}
+.danger {background-color: #f44336;}
+
+```
+
+```bash
+
+Button.stories.js
+
+import React from 'react'
+import Button from './Button'
+
+export default {
+    title: 'Button',
+    component: Button
+}
+
+export const Primary = () => <Button variant='primary'>Click</Button>
+export const Secondary = () => <Button variant='secondary'>Happy Day</Button>
+export const Success = () => <Button variant='success'>Success</Button>
+export const Danger = () => <Button variant='danger'>Regnskur 1-10 mm</Button>
+
+
+```
 
 
 
