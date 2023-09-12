@@ -1,6 +1,6 @@
 # React Storybook 3.Writing stories
 ## Day-1 <Storybook: Playground for UI components>
->> with new Macbook pro 
+> with new Macbook pro :heart_eyes:
 
 ## Getting react app with storybook
 ```bash
@@ -92,7 +92,7 @@ export const Danger = () => <Button variant='danger'>Regnskur 1-10 mm</Button>
 
 ```
 
-# 4.1- Story Hierarchy
+# Day-2 4.1- Story Hierarchy
 
 in the components folder I have created another folder 
 called Input.
@@ -113,7 +113,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 *****
 
-* Markdown : <http://markdowm.com/>
+* Markdown : <https://www.markdownguide.org/basic-syntax/>
 
 ---------------------------------------
 
