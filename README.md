@@ -1,5 +1,5 @@
 # React Storybook 3.Writing stories
-## Day-1 
+## Day-1 <Storybook: Playground for UI components>
 >> with new Macbook pro 
 
 ## Getting react app with storybook
@@ -17,7 +17,7 @@ storybook version 7.4
 Runs the stories UI in the development mode.\
 Open [http://localhost:6006](http://localhost:6006) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 
 
 ### `button component`
@@ -103,4 +103,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 
+
+*****
+
+* Markdown : <http://markdowm.com/>
 
