@@ -188,7 +188,7 @@ the default export.
 
 # 4.2 - Renaming & Sorting Stories in V6
 
-> n version 6 it is now possible to rename stories so in input.stories.js file
+> Storybook version 6 it is now possible to rename stories so in input.stories.js file
 > add small dot story name is equal to Small input small is the story and to the story name
 property. 
 
@@ -202,23 +202,25 @@ in some order for example i would prefer
 
 * if the stories were alphabetically sorted
 + so button and then input,
-1.  if you go to the sotrybook docs link: (https://storybook.js.org/docs/react/writing-stories/naming-components-and-hierarchy) 
-+ and under writing stories click on naming components and hierarchy. 
++ if you go to the sotrybook docs link: 
+1. (https://storybook.js.org/docs/react/writing-stories/naming-components-and-hierarchy) 
+2. and under writing stories click on naming components and hierarchy. 
 
-* scroll down a bit and you're going to come across a section
+- scroll down a bit and you're going to come across a section
 on sorting stories here copy the options object and back in vs code.
 
-> > in preview.js paste it after the actions property
+>  in preview.js paste it after the actions property
 now your stories will be sorted
 alphabetically button and then input
 
->>> that is a quick update on
+> that is a quick update on
 renaming and sorting stories
 in version 6.
 
 * ex)
 
 ```bash
+ .storybook > preview.js
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
