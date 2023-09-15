@@ -192,13 +192,32 @@ the default export.
 > add small dot story name is equal to Small input small is the story and to the story name
 property. 
 
+> ex)
+
+```bash
+import React from 'react'
+import Input from './Input.js'
+
+export default {
+    title: 'Form/Input',
+    component: Input
+}
+
+export const Small = () => <Input size="small" placeholder="write e-mail adress..."/>
+export const Medium = () => <Input size="medium" placeholder="write e-mail adress..."/>
+export const Large = () => <Input size="large" placeholder="write e-mail adress..."/>
+
+Small.storyName = 'Small Input'
+
+```
+
 > we assign the new name if we now take a look at the browser you can see that the story
 has small input as its name so you now have the flexibility of
 adding a bit more descriptive story name while not having to bother about the story export name
 the last bit of information. 
 
 > we would prefer if the stories were sorted
-in some order for example i would prefer
+in some order for example i would prefer.
 
 * if the stories were alphabetically sorted
 + so button and then input,
